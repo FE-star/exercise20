@@ -62,4 +62,29 @@ describe('delegator', () => {
     })
   })
 
+  describe('第三次绑定', () => {
+    it('添加新元素应当也能够响应绑定', (done) => {
+      delegator = new Delegator('#container')
+
+      const li = document.createElement('li')
+      li.className = 'item'
+      li.innerHTML = `<span>hahaha</span>`
+
+      delegator.on('click', 'li.item', function (e) {
+        this.should.equal(li)
+        done()
+      })
+
+      document.getElementById('container')
+        .appendChild(li)
+
+      li.querySelector('span').click()
+    })
+
+    after(() => {
+      // destroy
+      delegator.destroy()
+    })
+  })
+
 })
