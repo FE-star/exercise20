@@ -14,7 +14,6 @@ describe('delegator', () => {
   describe('第一次绑定', () => {
     it('可以拿到root节点', () => {
       delegator = new Delegator('#container')
-  
       document.getElementById('container')
         .should.equal(delegator.root)
     })
@@ -27,7 +26,6 @@ describe('delegator', () => {
         // TODO
         done()
       })
-  
       // trigger
       document.querySelector('#btn1').click()
     })
