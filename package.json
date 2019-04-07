@@ -1,29 +1,29 @@
 {
-    "name": "exercise20",
-    "version": "0.0.1",
-    "description": "test",
-    "main": "index.js",
-    "scripts": {
-      "test": "karma start"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/FE-star/exercise20.git"
-    },
-    "keywords": [
-      "test"
-    ],
-    "author": "Daniel Yang",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/FE-star/exercise20/issues"
-    },
-    "homepage": "https://github.com/FE-star/exercise20#readme",
-    "devDependencies": {
-      "karma": "^1.7.0",
-      "karma-chrome-launcher": "^1.0.1",
-      "karma-mocha": "^1.3.0",
-      "mocha": "^3.5.0",
-      "should": "^11.2.1"
-    }
+  "name": "exercise20",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FE-star/exercise20.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Daniel Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FE-star/exercise20/issues"
+  },
+  "homepage": "https://github.com/FE-star/exercise20#readme",
+  "devDependencies": {
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-mocha": "^1.3.0",
+    "mocha": "^3.5.0",
+    "should": "^11.2.1"
+  }
 }
